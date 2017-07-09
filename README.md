@@ -40,7 +40,7 @@ $ npm install --global gulp
 
 <a name="get_the_code"></a>
 ## Get the code [top](#toc)
- [Download](https://github.com/GDGKozhikode) / [Clone](https://github.com/GDGKozhikode) the repo.
+ [Download](https://github.com/GDGKozhikode/gdg_website/master/) / [Clone](https://github.com/GDGKozhikode/gdg_website.git) the repo.
 
  Open the download/cloned folder in your terminal.
  
