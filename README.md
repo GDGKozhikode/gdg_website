@@ -16,7 +16,7 @@ The MDL supporting files are loaded from cloud, so the site might won't paint th
 2. [Run the Project](#run_project)
 3. [Build & Optimize](#build_&_optimize)
 4. [File Structure](#file_structure)
-5. [Contribution](Contributing.md)
+5. [Contribution](https://github.com/GDGKozhikode/gdg_website/blob/master/CONTRIBUTING.md)
 
 <a name="pre_req"></a>
 ## Prerequisites [top](#toc)
@@ -179,4 +179,4 @@ In gulp, you would install plugins, that do one thing and do it well, and constr
 This is the file your reading now ;). Written in Markdown language.
 
 ### CONTRIBUTING.md
-[Open](contributing.md) the file to see how to participate & contribute to the project.
+[Open](https://github.com/GDGKozhikode/gdg_website/blob/master/CONTRIBUTING.md) the file to see how to participate & contribute to the project.
