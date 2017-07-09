@@ -1,0 +1,9 @@
+# Front-end
+node_modules
+dist/
+.tmp
+.firebaserc
+.travis.yml
+.gitattributes
+firebase.json
+firebase-debug.log

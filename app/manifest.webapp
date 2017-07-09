@@ -1,0 +1,25 @@
+{
+  "version": "0.0.1",
+  "name": "Google Developers Group - Kozhikode",
+  "launch_path": "/index.html",
+  "description": "A community website for developers to help, share & grow in the city Kozhikode.",
+  "icons": {
+    "128": "/images/touch/icon-128x128.png"
+  },
+  "developer": {
+    "name": "Ligin Vellakkad",
+    "url": "https://github.com/liginv"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Google Developers Group - Kozhikode",
+      "description": "A community website for developers to help, share & grow in the city Kozhikode."
+    }
+  }
+}

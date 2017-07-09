@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  <name> -- <role> -- <twitter>
+  Ligin Vellakkad -- Developer -- ligindd
+
+# THANKS
+
+  <name>
+  Jinu Rajendran
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3, Web Starter Kit, gulp, npm, MDL
