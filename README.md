@@ -145,8 +145,6 @@ This is where the custom CSS files are. You can place any __*.scss__ you wish to
 
 The Firefox OS app manifest provides information about an app (such as name, author, icon, and description) and a list of Web APIs that your app needs.
 
-This manifest included in Web Starter Kit until Firefox OS switches to using the manifest spec instead.
-
 ### app/service-worker.js
 
 A [service worker](http://www.html5rocks.com/en/tutorials/service-worker/introduction/) is a script that is run by your browser in the background, separate from a web page, opening the door to features such as offline support.
