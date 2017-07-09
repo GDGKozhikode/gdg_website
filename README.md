@@ -1,5 +1,5 @@
 # GDG Kozhikode Website - Frontend
-This is the frontend part of the GDG kozhikode website build with Google's [Material Design Lite](https://getmdl.io/)(MDL) & [Web Starter Kit](https://github.com/google/web-starter-kit).
+This is the frontend part of GDG kozhikode website build with Google's [Material Design Lite](https://getmdl.io/)(MDL) & [Web Starter Kit](https://github.com/google/web-starter-kit).
 
 ## Features
 * Responsive & work well across different device screen size
