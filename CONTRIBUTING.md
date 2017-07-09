@@ -3,7 +3,7 @@
 We love pull requests of all kind from everyone, even its just a style guide error or spelling-mistake. By participating in this project, you
 agree to abide by the [code of conduct].
 
-[code of conduct]: http://contributor-covenant.org/version/1/4/code_of_conduct.md
+[code of conduct]: https://github.com/GDGKozhikode/gdg_website/blob/master/CODE_OF_CONDUCT.md
 
 Fork, then clone the repo:
 
