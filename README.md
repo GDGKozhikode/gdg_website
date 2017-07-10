@@ -11,12 +11,37 @@ The MDL supporting files are loaded from cloud, so the site might won't paint th
 
 <a name="toc"></a>
 ## Table of contents
-0. [Prerequisites](#pre_req)
-1. [Get the Code](#get_the_code)
-2. [Run the Project](#run_project)
-3. [Build & Optimize](#build_&_optimize)
-4. [File Structure](#file_structure)
-5. [Contribution](https://github.com/GDGKozhikode/gdg_website/blob/master/CONTRIBUTING.md)
+0. [Quick Start] (#quick_start)
+1. [Prerequisites](#pre_req)
+2. [Get the Code](#get_the_code)
+3. [Run the Project](#run_project)
+4. [Build & Optimize](#build_&_optimize)
+5. [File Structure](#file_structure)
+6. [Contribution](https://github.com/GDGKozhikode/gdg_website/blob/master/CONTRIBUTING.md)
+
+<a name="quick_start"></a>
+## Quick Start [top](#toc)
+
+* **Clone the repository**
+
+```sh
+$ git clone https://github.com/GDGKozhikode/gdg_website.git
+```
+* **Install dependencies inside the folder**
+
+```sh
+$ cd gdg_website
+$ npm install
+```
+*This will install npm packages for the development*
+
+* **Run the website in browser**
+
+```sh
+$ gulp serve
+```
+*Gulp will create two additional folders (.tmp/ & dist/). <br>It from the dist/ folder the site is servered. It has all the .css, .js & index.html files in minfied form.*
+
 
 <a name="pre_req"></a>
 ## Prerequisites [top](#toc)
