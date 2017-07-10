@@ -11,7 +11,7 @@ The MDL supporting files are loaded from cloud, so the site might won't paint th
 
 <a name="toc"></a>
 ## Table of contents
-0. [Quick Start] (#quick_start)
+0. [Quick Start](#quick_start)
 1. [Prerequisites](#pre_req)
 2. [Get the Code](#get_the_code)
 3. [Run the Project](#run_project)
