@@ -96,7 +96,9 @@
 	//typing effect code ends
 
 
-
+	//Api Related
+	var eventsApi = "http://suparna.pythonanywhere.com/events/";
+	var speakersApi = "http://suparna.pythonanywhere.com/speakers/";
 
 	// dojo code below
 
@@ -111,12 +113,14 @@
 		function(dom, domConstruct, request) {
 
 			//api integration and dynamic binding 
-			request.get("http://suparna.pythonanywhere.com/events/").then(
+			// events api call starts
+			request.get(eventsApi).then(
 				function(response) {
 					// console response
 					preEvents = JSON.parse(response)
-					console.log(preEvents);
+					// console.log("preEvents :",preEvents);
 
+					// events dom building and binding starts
 					request("./templates/prevEvents.html").then(
 						function(prevEventsTemplate) {
 
@@ -135,19 +139,26 @@
 							console.log("An error occurred: " + error);
 						}
 					);
+					// events dom building and binding ends
+
+
 				},
 				function(error) {
 					// console error
-					console.log(response);
+					console.log(error);
 				}
 			);
+			// events api call ends
 
-			request.get("http://suparna.pythonanywhere.com/speakers/").then(
+
+			// speakers api call starts
+			request.get(speakersApi).then(
 				function(response) {
 					// console response
 					speakers = JSON.parse(response)
-					console.log(speakers);
+					// console.log("speakers :",speakers);
 
+					// speakers dom building and binding starts
 					request("./templates/speakers.html").then(
 						function(speakerTemplate) {
 
@@ -168,12 +179,16 @@
 							console.log("An error occurred: " + error);
 						}
 					);
+					// events dom building and binding ends
+
 				},
 				function(error) {
 					// console error
-					console.log(response);
+					console.log(error);
 				}
 			);
+			// speakers api call ends
+
 			//api integration and dynamic binding ends
 
 
