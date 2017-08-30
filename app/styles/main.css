@@ -25,8 +25,8 @@ body {
 }
 
 .gdg-logo-image {
-  height: 40px;
-  width: 220px;
+  /*height: 40px;*/
+  width: 250px;
 }
 
 .gdg-navigation {
@@ -58,14 +58,17 @@ body {
 .gdg-drawer .mdl-layout-title {
   position: relative;
   background: #42A5F5;
-  height: 160px;
+  /*height: 160px;*/
+  height: 65px;
+
 }
 
 .gdg-drawer .gdg-drawer-logo-image {
   position: absolute;
-  height: 70px;
+  /*height: 70px;*/
   width: 160px;
-  bottom: 16px;
+  /*bottom: 16px;*/
+  margin: 10px;
 }
 
 
@@ -224,13 +227,20 @@ body {
 }
 
 .square-card.mdl-card {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
 }
 
 .square-card > .mdl-card__title {
   color: #fff;
+  height: 250px;
   background: url('../images/organizers/photo.jpg') bottom right 15% no-repeat #46B6AC;
+}
+
+.square-card > .mdl-card__supporting-text {
+  height: 250px;
+  overflow-y: auto;
+
 }
 
 #wrapper {

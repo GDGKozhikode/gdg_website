@@ -37,7 +37,7 @@ var files = [
 	"images/supporters/google.svg",
 	"images/supporters/iim-k.png",
 	"images/supporters/ksidc.png",
-	"images/supporters/ulcp.png"
+	"images/supporters/ulcp.png",
 	"images/supporters/ksum.jpg",
 	"images/supporters/nasscom.jpg",
 	"images/supporters/nit-c.jpg",
